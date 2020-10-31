@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nord Star Design - технический дизайн квартир в Уфе</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&family=Exo+2:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+    <!-- Sprite -->
+    <svg style="display: none;">
+        <symbol id="home" viewBox="0 0 512 512">
+            <g>
+                <path d="M506.555,208.064L263.859,30.367c-4.68-3.426-11.038-3.426-15.716,0L5.445,208.064
+                    c-5.928,4.341-7.216,12.665-2.875,18.593s12.666,7.214,18.593,2.875L256,57.588l234.837,171.943c2.368,1.735,5.12,2.57,7.848,2.57
+                    c4.096,0,8.138-1.885,10.744-5.445C513.771,220.729,512.483,212.405,506.555,208.064z" />
+            </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M442.246,232.543c-7.346,0-13.303,5.956-13.303,13.303v211.749H322.521V342.009c0-36.68-29.842-66.52-66.52-66.52
+                    s-66.52,29.842-66.52,66.52v115.587H83.058V245.847c0-7.347-5.957-13.303-13.303-13.303s-13.303,5.956-13.303,13.303v225.053
+                    c0,7.347,5.957,13.303,13.303,13.303h133.029c6.996,0,12.721-5.405,13.251-12.267c0.032-0.311,0.052-0.651,0.052-1.036v-128.89
+                    c0-22.009,17.905-39.914,39.914-39.914s39.914,17.906,39.914,39.914v128.89c0,0.383,0.02,0.717,0.052,1.024
+                    c0.524,6.867,6.251,12.279,13.251,12.279h133.029c7.347,0,13.303-5.956,13.303-13.303V245.847
+                    C455.549,238.499,449.593,232.543,442.246,232.543z" />
+                </g>
+        </symbol>
+        <symbol id="idea" viewBox="0 0 511.997 511.997">
+            <g>
+                <g>
+                    <path d="M57.318,166.155H12.746c-6.841,0-12.386,5.545-12.386,12.386s5.545,12.386,12.386,12.386h44.571
+                        c6.842,0,12.387-5.545,12.387-12.386S64.159,166.155,57.318,166.155z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M499.251,166.155h-44.572c-6.84,0-12.386,5.545-12.386,12.386s5.546,12.386,12.386,12.386h44.572
+                        c6.84,0,12.386-5.545,12.386-12.386S506.091,166.155,499.251,166.155z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M108.347,326.191c-4.837-4.837-12.679-4.837-17.517,0l-32.42,32.42c-4.837,4.837-4.837,12.679,0,17.517
+                        c2.419,2.419,5.589,3.628,8.758,3.628s6.34-1.209,8.758-3.628l32.421-32.42C113.184,338.872,113.184,331.029,108.347,326.191z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M430.912,3.628c-4.838-4.837-12.678-4.837-17.517,0L381.863,35.16c-4.837,4.837-4.837,12.68,0,17.516
+                        c2.42,2.417,5.59,3.627,8.759,3.627c3.171,0,6.339-1.21,8.758-3.628l31.531-31.531C435.748,16.307,435.748,8.464,430.912,3.628z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M130.117,35.142L98.602,3.628c-4.837-4.835-12.68-4.835-17.517,0c-4.837,4.837-4.837,12.68,0,17.517L112.6,52.66
+                        c2.419,2.418,5.589,3.628,8.758,3.628s6.34-1.21,8.758-3.628C134.953,47.823,134.953,39.98,130.117,35.142z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M453.585,358.615l-32.3-32.303c-4.838-4.837-12.678-4.837-17.517,0.001c-4.837,4.837-4.837,12.68,0,17.516l32.301,32.301
+                        c2.419,2.419,5.589,3.628,8.758,3.628c3.171,0,6.339-1.21,8.758-3.628C458.422,371.294,458.422,363.451,453.585,358.615z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path
+                        d="M255.999,33.636c-85.648,0-155.327,72.885-155.327,162.474c0,41.65,14.919,86.482,40.933,123
+                        c19.979,28.045,30.538,59.249,30.538,90.24v77.875c0,13.659,11.113,24.772,24.772,24.772h118.169
+                        c13.659,0,24.772-11.113,24.772-24.772V409.35c0-30.99,10.559-62.195,30.536-90.24c26.014-36.517,40.934-81.35,40.934-123
+                        C411.324,106.521,341.645,33.636,255.999,33.636z M315.082,487.227H196.913v-16.201h59.085c6.841,0,12.387-5.545,12.387-12.386
+                        s-5.546-12.386-12.387-12.386h-59.085v-16.2h118.172l0.014,57.171C315.098,487.227,315.093,487.227,315.082,487.227z
+                         M238.629,256.141l-16.564-35.387h67.866l-16.562,35.387c-0.652,1.393-1.039,2.896-1.142,4.43l-9.605,144.711h-13.247
+                        l-9.605-144.711C239.668,259.037,239.28,257.534,238.629,256.141z M350.215,304.738c-22.123,31.056-34.208,65.733-35.082,100.544
+                        h-27.684l9.341-140.749l23.831-50.915c1.796-3.836,1.507-8.325-0.767-11.899c-2.273-3.573-6.215-5.738-10.451-5.738H202.592
+                        c-4.236,0-8.177,2.165-10.451,5.738c-2.273,3.573-2.563,8.062-0.767,11.898l23.832,50.915l9.341,140.749h-27.686
+                        c-0.874-34.812-12.958-69.488-35.082-100.544c-22.754-31.942-36.338-72.551-36.338-108.628
+                        c0-75.93,58.567-137.702,130.555-137.702s130.555,61.772,130.555,137.702C386.553,232.188,372.969,272.797,350.215,304.738z" />
+                </g>
+            </g>
+        </symbol>
+        <symbol id="like" viewBox="0 0 512.001 512.001">
+            <g>
+                <g>
+                    <path d="M501.619,301.273c0-8.503-2.634-16.4-7.121-22.929c10.566-7.335,17.503-19.547,17.503-33.354
+                        c0-22.378-18.206-40.585-40.583-40.585H364.723l6.758-15.152c9.88-22.156,14.916-45.692,14.968-69.951
+                        c0,0,0.061-29.607,0.061-29.773c0-22.999-18.711-41.711-41.711-41.711c-17.096,0-32.282,10.241-38.688,26.092
+                        c-0.282,0.699-9.989,29.296-9.989,29.296c-8.753,25.429-24.283,47.989-44.908,65.245l-49.492,41.403H173.11v-13.061
+                        c0-13.721-11.163-24.885-24.885-24.885H24.885C11.163,171.908,0,183.071,0,196.793v242.506c0,13.721,11.163,24.885,24.885,24.885
+                        h123.338c13.721,0,24.885-11.163,24.885-24.885v-19.48h15.621l15.509,7.497c36.688,17.734,77.618,27.108,118.367,27.108h56.72
+                        h17.302h43.644c22.378,0,40.585-18.206,40.585-40.583c0-8.503-2.634-16.4-7.121-22.929c10.566-7.335,17.503-19.547,17.503-33.354
+                        c0-8.503-2.634-16.4-7.121-22.929C494.683,327.294,501.619,315.081,501.619,301.273z M148.223,439.299H24.885V196.792h123.338
+                        l0.016,242.506C148.239,439.298,148.234,439.299,148.223,439.299z M471.418,260.691h-17.706c-6.872,0-12.442,5.57-12.442,12.442
+                        c0,6.872,5.57,12.442,12.442,12.442h7.324c8.657,0,15.7,7.042,15.7,15.7s-7.042,15.7-15.7,15.7h-17.704
+                        c-6.872,0-12.442,5.57-12.442,12.442s5.57,12.442,12.442,12.442h7.324c8.656,0,15.7,7.042,15.7,15.7
+                        c0,8.656-7.042,15.699-15.7,15.699h-17.704c-6.872,0-12.442,5.57-12.442,12.442s5.57,12.442,12.442,12.442h7.324
+                        c8.657,0,15.7,7.044,15.7,15.7c-0.002,8.654-7.045,15.696-15.702,15.696h-43.644h-17.302h-56.72
+                        c-37.021,0-74.206-8.516-107.537-24.627l-18.075-8.737c-1.688-0.816-3.54-1.241-5.415-1.241h-18.471V234.737h33.13
+                        c2.919,0,5.745-1.026,7.983-2.899l52.957-44.302c24.1-20.16,42.244-46.521,52.471-76.232c0,0,9.9-28.823,9.958-29.019
+                        c2.79-5.852,8.64-9.582,15.191-9.582c9.278,0,16.826,7.548,16.826,16.826c0,0.165-0.061,29.721-0.061,29.721
+                        c-0.044,20.764-4.354,40.906-12.811,59.869l-14.493,32.502c-1.27,2.849-1.374,5.918-0.53,8.685
+                        c0.071,0.245,2.758,8.986,11.946,8.986h125.743c8.656,0,15.699,7.042,15.699,15.7
+                        C487.116,253.648,480.074,260.691,471.418,260.691z" />
+                </g>
+            </g>
+        </symbol>
+        <symbol id="number_1" viewBox="0 0 286.054 286.054">
+            <g>
+                <path style="fill:#2394BC;" d="M143.027,0C64.031,0,0,64.04,0,143.027c0,78.996,64.031,143.027,143.027,143.027
+                    s143.027-64.031,143.027-143.027C286.054,64.04,222.022,0,143.027,0z M143.027,259.236c-64.183,0-116.209-52.026-116.209-116.209
+                    S78.844,26.818,143.027,26.818s116.209,52.026,116.209,116.209S207.21,259.236,143.027,259.236z" />
+                <path style="fill:#2394BC;"
+                    d="M150.026,80.39h-22.84c-6.91,0-10.933,7.044-10.933,13.158c0,5.936,3.209,13.158,10.933,13.158
+                    h7.259v85.36c0,8.734,6.257,13.605,13.176,13.605s13.185-4.881,13.185-13.605V92.771C160.798,85.789,156.945,80.39,150.026,80.39z" />
+            </g>
+        </symbol>
+        <symbol id="number_2" viewBox="0 0 286.054 286.054">
+            <g>
+                <path style="fill:#2394BC;"
+                    d="M143.027,0C64.031,0,0,64.04,0,143.027c0,78.996,64.031,143.027,143.027,143.027
+                    s143.027-64.031,143.027-143.027C286.054,64.04,222.022,0,143.027,0z M143.027,259.236c-64.183,0-116.209-52.026-116.209-116.209
+                    S78.844,26.818,143.027,26.818s116.209,52.026,116.209,116.209S207.21,259.236,143.027,259.236z M173.232,180.205h-32.038
+                    c15.661-18.459,40.852-39.753,40.852-63.736c0-21.91-16.564-35.882-39.216-35.882c-22.661,0-43.847,17.977-43.847,39.717
+                    c0,6.731,4.604,12.586,13.445,12.586c17.691,0,8.108-28.498,29.294-28.498c7.554,0,13.266,6.204,13.266,13.284
+                    c0,6.204-3.138,11.558-6.454,16.046c-13.999,18.969-30.581,34.496-45.867,51.579c-1.841,2.065-4.246,5.176-4.246,8.796
+                    c0,7.938,6.266,11.38,14.365,11.38h61.528c6.999,0,13.266-4.568,13.266-12.497C187.58,185.05,181.331,180.205,173.232,180.205z" />
+            </g>
+        </symbol>
+        <symbol id="number_3" viewBox="0 0 286.054 286.054">
+            <path style="fill:#2394BC;" d="M143.027,0C64.04,0,0,64.04,0,143.027c0,78.996,64.04,143.027,143.027,143.027
+                s143.027-64.031,143.027-143.027C286.054,64.04,222.014,0,143.027,0z M143.027,259.236c-64.183,0-116.209-52.026-116.209-116.209
+                S78.844,26.818,143.027,26.818s116.209,52.026,116.209,116.209S207.21,259.236,143.027,259.236z M167.717,137.637
+                c8.966-5.936,13.364-15.277,13.364-25.977c0-13.239-11.254-31.082-34.729-31.082c-18.093,0-35.542,14.276-35.542,27.515
+                c0,6.284,3.915,12.56,10.602,12.56c11.085,0,8.966-16.636,24.449-16.636c7.339,0,11.737,4.925,11.737,11.371
+                c0,18.853-23.152,6.794-23.152,24.627c0,20.033,27.72,2.548,27.72,26.317c0,9.002-6.856,15.796-15.331,15.796
+                c-18.424,0-15.813-19.872-26.898-19.872c-5.873,0-12.551,4.756-12.551,11.38c0,13.418,15,31.922,39.127,31.922
+                c23.152,0,41.084-17.154,41.084-37.527C187.598,154.621,179.445,143.25,167.717,137.637z" />
+        </symbol>
+        <symbol id="arrow__next" viewBox="0 0 492.004 492.004">
+            <g>
+                <path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+                    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+                    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+                    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z" />
+            </g>
+        </symbol>
+        <symbol id="arrow__prev" viewBox="0 0 492 492">
+            <g>
+                <path d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
+                    C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
+                    c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
+                    l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z" />
+            </g>
+        </symbol>
+    </svg>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><a href="#">Nord Star <span>Design</span></a></div>
+                <nav class="header_menu">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#features">О проектах</a></li>
+                        <li><a href="#galery">Галерея</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#price">Цены</a></li>
+                        <li><a href="#footer">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="main__page">
+        <div class="container">
+            <div class="main__page__inner">
+                <div class="main__page__image"><img src="img/laptop.png" alt=""></div>
+                <div class="main__page__text">
+                    <h1>Технический дизайн квартир в Уфе</h1>
+                    <p>Первая студия технического проектирования квартир в Уфе</p>
+                    <p>Трехмерные модели для лучшего понимания результата</p>
+                    <p>Инструкции и консультации для самостоятельного ремонта</p>
+                    <div class="order__btn"><a href="#">Подать заявку</a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features" id="features">
+        <div class="container">
+            <div class="features__inner">
+                <div class="features__item">
+                    <div class="features__icon">
+                        <svg class="icon">
+                            <use xlink:href="#home"></use>
+                        </svg>
+                    </div>
+                    <h3 class="features__title">Что такое технический проект?</h3>
+                    <div class="features__text">
+                        <p>Грамотно составленный документ со схемами и чертежами для быстрого выполнения качественного
+                            ремонта.</p>
+                    </div>
+                </div>
+
+                <div class="features__item">
+                    <div class="features__icon">
+                        <svg class="icon">
+                            <use xlink:href="#like"></use>
+                        </svg>
+                    </div>
+                    <h3 class="features__title">Зачем нужен проект?</h3>
+                    <div class="features__text">
+                        <p>Технический проект дает возможность избежать множества ошибок при проведении ремонта.</p>
+                    </div>
+                </div>
+
+                <div class="features__item">
+                    <div class="features__icon">
+                        <svg class="icon">
+                            <use xlink:href="#idea"></use>
+                        </svg>
+                    </div>
+                    <h3 class="features__title">Чем плох 2D проект?</h3>
+                    <div class="features__text">
+                        <p>Старые 2D чертежи не дают наглядного представления о том, как будет выглядеть квартира после
+                            ремонта.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="process" id="process">
+        <div class="process__title">
+            <h2>Процесс создания проекта</h2>
+        </div>
+        <div class="container">
+
+            <div class="process__inner">
+
+                <div class="process_corusele"><img src="img/1080х1080.jpg" alt=""></div>
+
+                <div class="process_description">
+                    <div class="process__items">
+                        <div class="precess__items__header">
+                            <h2>Встреча с заказчиком</h2>
+                        </div>
+                        <div class="precess__items__icon">
+                            <svg class="number_1">
+                                <use xlink:href="#number_1"></use>
+                            </svg>
+                        </div>
+                        <div class="process__items__text">
+                            <p>Проводится замер объекта, составляется техническое задание.
+                                Выслушиваются планы и пожелания заказчиков. Выполняется первичное проектирование объекта
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process__items">
+                        <div class="precess__items__header">
+                            <h2>Формирование трехмерной
+                                модели квартиры</h2>
+                        </div>
+                        <div class="precess__items__icon">
+                            <svg class="number_2">
+                                <use xlink:href="#number_2"></use>
+                            </svg>
+                        </div>
+                        <div class="process__items__text">
+                            <p>Создается трехмерная модель квартиры. Вы имеете возможность посмотреть на точную копию
+                                будущего интерьера.
+                                При необходимости создается фотореалистичная визуализация квартиры со всей мебелью.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="process__items">
+                        <div class="precess__items__header">
+                            <h2>После ремонта квартира практически не отличается от проекта</h2>
+                        </div>
+                        <div class="precess__items__icon">
+                            <svg class="number_3">
+                                <use xlink:href="#number_3"></use>
+                            </svg>
+                        </div>
+                        <div class="process__items__text">
+                            <p>Благодаря точным замерам и грамотному проектированию готовая квартира в точности
+                                совпадает с
+                                технологическим проектом.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="benefits" id="benefits">
+        <div class="benefits__title">
+            <h2>Преимущества технического проекта</h2>
+        </div>
+        <div class="container">
+            <div class="benefits__wrapper">
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/3d.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Визуализация квартиры</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>Вы наглядно увидите квартиру в 3D модели еще до ремонта.Выберите
+                            удобную планировку и комфортное расположение предметов интерьера.</p>
+                    </div>
+                </div>
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/money.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Распределение бюджета</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>Оплатите запланированные технологические операции, а не эксперименты и переделки подрядчиков.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/retinal-scan.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Контроль</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>Легче контролировать соответствие результата работ своим пожеланиям или решать конфликтные
+                            ситуации, в случае их возникновения.</p>
+                    </div>
+                </div>
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/time-management.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Экономия времени</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>Решение организационных и производственных вопросов занимает меньше времени.</p>
+                    </div>
+                </div>
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/worker.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Контакт с бригадой</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>Исключаются ошибки во взаимопонимании между заказчиком и исполнителем.</p>
+                    </div>
+                </div>
+
+                <div class="benefits__item">
+                    <div class="benefits__item__icon">
+                        <img src="./img/checklist.png" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        <h3>Рекомендации</h3>
+                    </div>
+                    <div class="benefits__item__text">
+                        <p>По подбору материалов, планированию и проведению ремонтных работ в квартире</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="galery" id="galery">
+        <div class="galery__title">
+            <h2>Галерея</h2>
+        </div>
+        <div class="arrows">
+            <svg class="arrow__next">
+                <use xlink:href="#arrow__next"></use>
+            </svg>
+            <svg class="arrow__prev">
+                <use xlink:href="#arrow__prev"></use>
+            </svg>
+        </div>
+        <div class="container">
+
+            <div class="galery__slider" id="galerySlider">
+
+                <div class="slick__item">
+
+                    <div class="galery__item">
+
+                        <div class="galery__foto"><img src="img/sost.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_1.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_2.jpg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_4.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_5.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_6.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_7.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_8.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="slick__item">
+                    <div class="galery__item">
+                        <div class="galery__foto"><img src="img/sost_9.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials" id="testimonials">
+        <div class="testimonials__title">
+            <h2>Что говорят наши клиенты</h2>
+        </div>
+        <div class="container">
+            <div class="testimonials__inner">
+                <div class="testimonials__item">
+                    <div class="testimonials__foto"><img src="./img/testimonials1.jpg" alt=""></div>
+                    <div class="testimonials__text">
+                        <p>“Имея проект мне не пришлось махать руками в воздухе объясняя строителям каким я хочу видеть
+                            свой дом в конечном итоге. Спасибо!“</p>
+                    </div>
+                    <div class="testimonials__subtext">
+                        <p>Денис, Частный дом в Шмидтово</p>
+                    </div>
+                </div>
+
+                <div class="testimonials__item">
+                    <div class="testimonials__foto"><img src="./img/testimonials2.jpg" alt=""></div>
+                    <div class="testimonials__text">
+                        <p>“Даже не знаю как бы мы сами справились с ремонтом! Сделали все в кратчайшие сроки. Спасибо
+                            за Ваш труд!“</p>
+                    </div>
+                    <div class="testimonials__subtext">
+                        <p>Аида, ЖК Старый центр</p>
+                    </div>
+                </div>
+
+                <div class="testimonials__item">
+                    <div class="testimonials__foto"><img src="./img/testimonials3.jpg" alt=""></div>
+                    <div class="testimonials__text">
+                        <p>“Проект очень помог при подсчете бюджета на ремонт! Спасибо, что отговорили делать ниши из
+                            гипсокартона)“</p>
+                    </div>
+                    <div class="testimonials__subtext">
+                        <p>Юлия, ЖК Квартал Энтузиастов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="price" id="price">
+        <div class="price__title">
+            <h2>Цены</h2>
+        </div>
+        <div class="container">
+            <div class="price__inner">
+                <div class="price__item">
+                    <div class="price__item__title">Однокомнатная квартира</div>
+                    <div class="price__item__value">6000 р.</div>
+                    <div class="price__item__time">срок выполнения - 2 недели</div>
+                    <ul>
+                        <li>схема размеров помещений</li>
+                        <li>площадь стен и рекомендуемые материалы</li>
+                        <li>схемы электроточек</li>
+                        <li>схемы расположения сантех.точек</li>
+                        <li>схемы кухонных модулей</li>
+                        <li>раскладка плитки по стенам и полу</li>
+                        <li>схемы раскладки плитки по стенам и полу</li>
+                    </ul>
+                    <a href="tel:+79129101888">Заказать</a>
+                </div>
+
+                <div class="price__item">
+                    <div class="price__item__title">Двухкомнатная квартира</div>
+                    <div class="price__item__value">9000 р.</div>
+                    <div class="price__item__time">срок выполнения - 2 недели</div>
+                    <ul>
+                        <li>схема размеров помещений</li>
+                        <li>площадь стен и рекомендуемые материалы</li>
+                        <li>схемы электроточек</li>
+                        <li>схемы расположения сантех.точек</li>
+                        <li>схемы кухонных модулей</li>
+                        <li>раскладка плитки по стенам и полу</li>
+                        <li>схемы раскладки плитки по стенам и полу</li>
+                    </ul>
+                    <a href="tel:+79129101888">Заказать</a>
+                </div>
+
+                <div class="price__item">
+                    <div class="price__item__title">Трехкомнатная квартира</div>
+                    <div class="price__item__value">12000 р.</div>
+                    <div class="price__item__time">срок выполнения - 2 недели</div>
+                    <ul>
+                        <li>схема размеров помещений</li>
+                        <li>площадь стен и рекомендуемые материалы</li>
+                        <li>схемы электроточек</li>
+                        <li>схемы расположения сантех.точек</li>
+                        <li>схемы кухонных модулей</li>
+                        <li>раскладка плитки по стенам и полу</li>
+                        <li>схемы раскладки плитки по стенам и полу</li>
+                    </ul>
+                    <a href="tel:+79129101888">Заказать</a>
+                </div>
+
+                <div class="price__item">
+                    <div class="price__item__title">Частный дом</div>
+                    <div class="price__item__value">от 20000 р.</div>
+                    <div class="price__item__time">срок выполнения - 3 - 4 недели</div>
+                    <ul>
+                        <li>схема размеров помещений</li>
+                        <li>площадь стен и рекомендуемые материалы</li>
+                        <li>схемы электроточек</li>
+                        <li>схемы расположения сантех.точек</li>
+                        <li>схемы кухонных модулей</li>
+                        <li>раскладка плитки по стенам и полу</li>
+                        <li>схемы раскладки плитки по стенам и полу</li>
+                    </ul>
+                    <a href="tel:+79129101888">Заказать</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__insta">
+                    <div class="footer__insta__title">
+                        <h2>Instagram</h2>
+                    </div>
+                    <ul>
+                        <li><a href="https://www.instagram.com/p/Bw_tUlgJ-Bd/" targer="_blank"><img
+                                    src="./img/Insta1.jpg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/p/BwddP0EJS-S/" targer="_blank"><img
+                                    src="./img/Insta2.jpg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/p/Bw6R6KPJuAg/" targer="_blank"><img
+                                    src="./img/Insta3.jpg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/p/BtDSgmnBTOH/" targer="_blank"><img
+                                    src="./img/Insta4.jpg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/p/Bw8tJWrJjGT/" targer="_blank"><img
+                                    src="./img/Insta5.jpg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/p/BwzPZaFJnPW/" targer="_blank"><img
+                                    src="./img/Insta6.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer__info">
+                    <h2>Связаться</h2>
+                    <div class="footer__info__tel">
+                        <a href="tel:+79129101888">+7 912 910 18 88</a>
+                    </div>
+                    <div class="footer__info__mail">
+                        <a href="mailto:info@nordstardesignufa.ru">info@nordstardesignufa.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
