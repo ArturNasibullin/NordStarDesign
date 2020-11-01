@@ -4,20 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Технический дизайн однокомнатных, двухкомнатных и трехкомнатных в Уфе, ремонт квартир, подбор материалов">
+    <meta name="keywords" content="техдизайн, технический, проект, дизайн, ремонт, новостройки, квартир, Уфа, sketchup">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Nord Star Design - технический дизайн квартир в Уфе</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&family=Exo+2:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138726481-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-138726481-1');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode
+                .insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(53370631, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/53370631" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
     <!-- Sprite -->
     <svg style="display: none;">
         <symbol id="home" viewBox="0 0 512 512">
@@ -171,26 +217,32 @@
     </svg>
 </head>
 
+
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo"><a href="#">Nord Star <span>Design</span></a></div>
-                <nav class="header_menu">
+                <nav class="header_menu" id="headerMenu">
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#features">О проектах</a></li>
-                        <li><a href="#galery">Галерея</a></li>
-                        <li><a href="#testimonials">Отзывы</a></li>
-                        <li><a href="#price">Цены</a></li>
-                        <li><a href="#footer">Контакты</a></li>
+                        <li><a href="#" data-scroll="#mainPage">Главная</a></li>
+                        <li><a href="#" data-scroll="#features">О проектах</a></li>
+                        <li><a href="#" data-scroll="#galery">Галерея</a></li>
+                        <li><a href="#" data-scroll="#testimonials">Отзывы</a></li>
+                        <li><a href="#" data-scroll="#price">Цены</a></li>
+                        <li><a href="#" data-scroll="#footer">Контакты</a></li>
                     </ul>
                 </nav>
+
+                <button class="burger" type="button" id="burgerToggle">
+                    <span class="burger__item">Menu</span>
+                </button>
+
             </div>
         </div>
     </header>
 
-    <div class="main__page">
+    <div class="main__page" id="mainPage">
         <div class="container">
             <div class="main__page__inner">
                 <div class="main__page__image"><img src="img/laptop.png" alt=""></div>
@@ -199,7 +251,7 @@
                     <p>Первая студия технического проектирования квартир в Уфе</p>
                     <p>Трехмерные модели для лучшего понимания результата</p>
                     <p>Инструкции и консультации для самостоятельного ремонта</p>
-                    <div class="order__btn"><a href="#">Подать заявку</a></div>
+                    <div class="order__btn"><a href="tel:+79129101888">Подать заявку</a></div>
 
                 </div>
             </div>
@@ -215,7 +267,7 @@
                             <use xlink:href="#home"></use>
                         </svg>
                     </div>
-                    <h3 class="features__title">Что такое технический проект?</h3>
+                    <h3 class="features__title">Технический проект</h3>
                     <div class="features__text">
                         <p>Грамотно составленный документ со схемами и чертежами для быстрого выполнения качественного
                             ремонта.</p>
@@ -258,7 +310,19 @@
 
             <div class="process__inner">
 
-                <div class="process_corusele"><img src="img/1080х1080.jpg" alt=""></div>
+                <div class="process_corusele" id="processCorusele">
+
+                    <div class="process_corusele__item">
+                        <img src="img/1080х1080.jpg" alt="">
+                    </div>
+                    <div class="process_corusele__item">
+                        <img src="img/1080х10802.jpg" alt="">
+                    </div>
+                    <div class="process_corusele__item">
+                        <img src="img/1080х10803.jpg" alt="">
+                    </div>
+
+                </div>
 
                 <div class="process_description">
                     <div class="process__items">
@@ -354,7 +418,7 @@
                         <img src="./img/retinal-scan.png" alt="">
                     </div>
                     <div class="benefits__item__title">
-                        <h3>Контроль</h3>
+                        <h3>Упрощенный контроль</h3>
                     </div>
                     <div class="benefits__item__text">
                         <p>Легче контролировать соответствие результата работ своим пожеланиям или решать конфликтные
@@ -483,7 +547,7 @@
                 <div class="testimonials__item">
                     <div class="testimonials__foto"><img src="./img/testimonials1.jpg" alt=""></div>
                     <div class="testimonials__text">
-                        <p>“Имея проект мне не пришлось махать руками в воздухе объясняя строителям каким я хочу видеть
+                        <p>“Имея проект мне не пришлось махать руками в воздухе, объясняя строителям каким я хочу видеть
                             свой дом в конечном итоге. Спасибо!“</p>
                     </div>
                     <div class="testimonials__subtext">
